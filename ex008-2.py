@@ -1,0 +1,8 @@
+#Conversor de medidas (massa)
+g = int(input('Digite a massa em gramas: '))
+kg = float(g/1000)
+lb = float(kg*2.2046)
+oz = float(kg*35.2740)
+print('Em kilos: {}.'.format(kg))
+print('Em libras: {:.3f}.'.format(lb))
+print('Em onças: {:.3f}.'.format(oz))

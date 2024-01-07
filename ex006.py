@@ -1,3 +1,5 @@
+#Calcular o dobro, o triplo e raiz quadrada de um número
+
 n1 = float(input('Digite um número: '))
 d = n1*2
 t = n1*3

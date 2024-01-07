@@ -1,0 +1,11 @@
+#Conversor de medidas (comprimento)
+cm = int(input('Digite o comprimento em cm: '))
+m = float(cm/100)
+km = float(m/1000)
+polegadas = float(m*39.3700787)
+pes = float(m*3.2808399)
+print('Em metros: {}.'.format(m))
+print('Em quilômetros: {}.'.format(km))
+print('Em polegadas: {:.3f}'.format(polegadas))
+print('Em pés: {:.3f}'.format(pes))
+
