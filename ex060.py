@@ -17,3 +17,4 @@ while c > 0:
    fatorial *= c
    c-=1
 print(f'{fatorial}')
+
